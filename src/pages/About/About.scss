@@ -1,0 +1,22 @@
+.about-page{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.about-title{
+    font-size:36px;
+    color:orangered;
+}
+.about-img{
+    height:600px;
+    overflow:hidden;
+    img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+}
+.about-text{
+    font-size:18px;
+    line-height:32px;
+    margin-top:32px;
+}

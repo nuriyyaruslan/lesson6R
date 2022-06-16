@@ -1,0 +1,34 @@
+.uni-slider{
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.uni-img{
+    height:300px;
+    overflow:hidden;
+    img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+}
+.uni-title{
+    font-size:32px;
+    color:orangered;
+}
+.uni-item{
+    h4{
+        font-size:18px;
+        white-space: nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+}
+.uni-slider .slick-slide{
+    margin:0 12px;
+}
+.uni-slider .slick-dots li button:before{
+    font-size:18px;
+}
+.uni-slider .slick-list{
+    max-height:400px;
+}
